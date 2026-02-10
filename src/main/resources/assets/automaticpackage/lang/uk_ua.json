@@ -1,0 +1,7 @@
+{
+  "key.automaticpackage.toggle_pack": "Перемкнути набір ресурсів",
+  "category.automaticpackage.main": "MC-AutomaticPackage",
+  "message.automaticpackage.pack_enabled": "Набір ресурсів '%s' увімкнено",
+  "message.automaticpackage.pack_disabled": "Набір ресурсів '%s' вимкнено",
+  "message.automaticpackage.pack_not_found": "Набір ресурсів '%s' не знайдено"
+}

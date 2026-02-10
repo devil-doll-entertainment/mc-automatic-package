@@ -1,0 +1,7 @@
+{
+  "key.automaticpackage.toggle_pack": "Bronpakket wisselen",
+  "category.automaticpackage.main": "MC-AutomaticPackage",
+  "message.automaticpackage.pack_enabled": "Bronpakket '%s' ingeschakeld",
+  "message.automaticpackage.pack_disabled": "Bronpakket '%s' uitgeschakeld",
+  "message.automaticpackage.pack_not_found": "Bronpakket '%s' niet gevonden"
+}

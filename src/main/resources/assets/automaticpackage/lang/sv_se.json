@@ -1,0 +1,7 @@
+{
+  "key.automaticpackage.toggle_pack": "Växla resurspaket",
+  "category.automaticpackage.main": "MC-AutomaticPackage",
+  "message.automaticpackage.pack_enabled": "Resurspaket '%s' aktiverat",
+  "message.automaticpackage.pack_disabled": "Resurspaket '%s' inaktiverat",
+  "message.automaticpackage.pack_not_found": "Resurspaket '%s' hittades inte"
+}

@@ -1,0 +1,7 @@
+{
+  "key.automaticpackage.toggle_pack": "Przełącz paczkę zasobów",
+  "category.automaticpackage.main": "MC-AutomaticPackage",
+  "message.automaticpackage.pack_enabled": "Paczka zasobów '%s' włączona",
+  "message.automaticpackage.pack_disabled": "Paczka zasobów '%s' wyłączona",
+  "message.automaticpackage.pack_not_found": "Nie znaleziono paczki zasobów '%s'"
+}

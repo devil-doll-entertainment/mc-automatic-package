@@ -1,0 +1,7 @@
+{
+  "key.automaticpackage.toggle_pack": "Ressourcenpaket umschalten",
+  "category.automaticpackage.main": "MC-AutomaticPackage",
+  "message.automaticpackage.pack_enabled": "Ressourcenpaket '%s' aktiviert",
+  "message.automaticpackage.pack_disabled": "Ressourcenpaket '%s' deaktiviert",
+  "message.automaticpackage.pack_not_found": "Ressourcenpaket '%s' nicht gefunden"
+}

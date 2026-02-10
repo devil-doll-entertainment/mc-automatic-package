@@ -1,0 +1,7 @@
+{
+  "key.automaticpackage.toggle_pack": "리소스 팩 전환",
+  "category.automaticpackage.main": "MC-AutomaticPackage",
+  "message.automaticpackage.pack_enabled": "리소스 팩 '%s' 활성화됨",
+  "message.automaticpackage.pack_disabled": "리소스 팩 '%s' 비활성화됨",
+  "message.automaticpackage.pack_not_found": "리소스 팩 '%s'을(를) 찾을 수 없음"
+}

@@ -1,0 +1,7 @@
+{
+  "key.automaticpackage.toggle_pack": "Переключить набор ресурсов",
+  "category.automaticpackage.main": "MC-AutomaticPackage",
+  "message.automaticpackage.pack_enabled": "Набор ресурсов '%s' включён",
+  "message.automaticpackage.pack_disabled": "Набор ресурсов '%s' отключён",
+  "message.automaticpackage.pack_not_found": "Набор ресурсов '%s' не найден"
+}

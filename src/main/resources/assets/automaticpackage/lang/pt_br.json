@@ -1,0 +1,7 @@
+{
+  "key.automaticpackage.toggle_pack": "Alternar pacote de recursos",
+  "category.automaticpackage.main": "MC-AutomaticPackage",
+  "message.automaticpackage.pack_enabled": "Pacote de recursos '%s' ativado",
+  "message.automaticpackage.pack_disabled": "Pacote de recursos '%s' desativado",
+  "message.automaticpackage.pack_not_found": "Pacote de recursos '%s' não encontrado"
+}

@@ -1,0 +1,7 @@
+{
+  "key.automaticpackage.toggle_pack": "Přepnout balíček zdrojů",
+  "category.automaticpackage.main": "MC-AutomaticPackage",
+  "message.automaticpackage.pack_enabled": "Balíček zdrojů '%s' zapnut",
+  "message.automaticpackage.pack_disabled": "Balíček zdrojů '%s' vypnut",
+  "message.automaticpackage.pack_not_found": "Balíček zdrojů '%s' nenalezen"
+}

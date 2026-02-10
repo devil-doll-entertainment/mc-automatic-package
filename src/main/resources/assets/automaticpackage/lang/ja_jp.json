@@ -1,0 +1,7 @@
+{
+  "key.automaticpackage.toggle_pack": "リソースパックの切り替え",
+  "category.automaticpackage.main": "MC-AutomaticPackage",
+  "message.automaticpackage.pack_enabled": "リソースパック '%s' が有効になりました",
+  "message.automaticpackage.pack_disabled": "リソースパック '%s' が無効になりました",
+  "message.automaticpackage.pack_not_found": "リソースパック '%s' が見つかりません"
+}

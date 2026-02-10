@@ -1,0 +1,7 @@
+{
+  "key.automaticpackage.toggle_pack": "切換資源包",
+  "category.automaticpackage.main": "MC-AutomaticPackage",
+  "message.automaticpackage.pack_enabled": "資源包 '%s' 已啟用",
+  "message.automaticpackage.pack_disabled": "資源包 '%s' 已停用",
+  "message.automaticpackage.pack_not_found": "未找到資源包 '%s'"
+}

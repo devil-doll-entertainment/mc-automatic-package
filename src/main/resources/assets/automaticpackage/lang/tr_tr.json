@@ -1,0 +1,7 @@
+{
+  "key.automaticpackage.toggle_pack": "Kaynak paketini değiştir",
+  "category.automaticpackage.main": "MC-AutomaticPackage",
+  "message.automaticpackage.pack_enabled": "Kaynak paketi '%s' etkinleştirildi",
+  "message.automaticpackage.pack_disabled": "Kaynak paketi '%s' devre dışı bırakıldı",
+  "message.automaticpackage.pack_not_found": "Kaynak paketi '%s' bulunamadı"
+}

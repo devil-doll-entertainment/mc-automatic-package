@@ -1,0 +1,7 @@
+{
+  "key.automaticpackage.toggle_pack": "Toggle Resource Pack",
+  "category.automaticpackage.main": "MC-AutomaticPackage",
+  "message.automaticpackage.pack_enabled": "Resource pack '%s' enabled",
+  "message.automaticpackage.pack_disabled": "Resource pack '%s' disabled",
+  "message.automaticpackage.pack_not_found": "Resource pack '%s' not found"
+}
