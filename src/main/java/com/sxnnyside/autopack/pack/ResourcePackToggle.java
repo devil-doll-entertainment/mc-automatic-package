@@ -108,7 +108,7 @@ public final class ResourcePackToggle {
 
         for (ResourcePackProfile profile : enabled) {
             // Skip packs that Minecraft always keeps enabled (e.g. "vanilla", "fabric")
-            if (profile.isAlwaysEnabled()) {
+             if (profile.getSource().canBeEnabledLater()) {
                 continue;
             }
             userSelectedPacks.add(profile.getId());
