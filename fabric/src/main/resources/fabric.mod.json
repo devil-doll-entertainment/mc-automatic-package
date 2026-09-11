@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "automaticpackage",
+  "version": "${version}",
+  "name": "MC-AutomaticPackage",
+  "description": "Toggle any resource pack on or off with a single keybind or in-game GUI.",
+  "authors": [
+    "HoujouSxnnyside"
+  ],
+  "contact": {
+    "homepage": "https://github.com/devil-doll-entertainment/mc-automatic-package",
+    "sources": "https://github.com/devil-doll-entertainment/mc-automatic-package",
+    "issues": "https://github.com/devil-doll-entertainment/mc-automatic-package/issues",
+    "email": "support.sxnnyside@sxnnysideproject.com"
+  },
+
+  "license": "MIT",
+  "icon": "assets/automaticpackage/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.sxnnyside.autopack.fabric.AutomaticPackageFabric"
+    ],
+    "modmenu": [
+      "com.sxnnyside.autopack.fabric.ModMenuIntegration"
+    ]
+  },
+
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {}
+}

@@ -4,9 +4,17 @@ pluginManagement {
             name = 'Fabric'
             url = 'https://maven.fabricmc.net/'
         }
+        maven {
+            name = 'NeoForged'
+            url = 'https://maven.neoforged.net/releases'
+        }
         mavenCentral()
         gradlePluginPortal()
     }
 }
 
 rootProject.name = 'mc-automaticpackage'
+
+include 'common'
+include 'fabric'
+include 'neoforge'

@@ -1,0 +1,41 @@
+plugins {
+    id 'net.fabricmc.fabric-loom-remap' version '1.14.7'
+}
+
+repositories {
+    maven {
+        name = "TerraformersMC"
+        url = "https://maven.terraformersmc.com/"
+    }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings loom.officialMojangMappings()
+
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+    modCompileOnly "com.terraformersmc:modmenu:11.0.3"
+
+    implementation project(':common')
+}
+
+
+processResources {
+    inputs.property "version", project.version
+
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version
+    }
+}
+
+tasks.named('jar') {
+    from(project(':common').sourceSets.main.output)
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+tasks.named('sourcesJar') {
+    from(project(':common').sourceSets.main.allSource)
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}

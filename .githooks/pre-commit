@@ -1,0 +1,4 @@
+#!/bin/sh
+# Git pre-commit hook enforcing quality gates
+echo "Running pre-commit quality gate..."
+just check

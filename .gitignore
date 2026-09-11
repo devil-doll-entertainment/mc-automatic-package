@@ -31,3 +31,6 @@ remappedSrc/
 
 # Logs
 *.log
+
+# Animoria cache & staged cleanup
+.animoria/
