@@ -23,7 +23,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Install Just
-        uses: extractions/setup-just@v2
+        uses: extractions/setup-just@v4
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
