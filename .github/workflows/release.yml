@@ -30,7 +30,7 @@ jobs:
         uses: extractions/setup-just@v2
 
       - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v3
+        uses: gradle/actions/setup-gradle@v6
 
       - name: Execute Quality Gate
         run: just check
