@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.fabric.loom)
+    alias(libs.plugins.minotaur)
 }
 
 repositories {
@@ -42,4 +43,21 @@ tasks.named('jar') {
 tasks.named('sourcesJar') {
     from(project(':common').sourceSets.main.allSource)
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+modrinth {
+    token = System.getenv("MODRINTH_TOKEN")
+    projectId = "automaticpackage"
+    versionNumber = project.version
+    versionName = "MC-AutomaticPackage v${project.version} [Fabric]"
+    versionType = "release"
+    uploadFile = tasks.remapJar
+    gameVersions = ["1.21", "1.21.1"]
+    loaders = ["fabric"]
+    changelog = rootProject.file("CHANGELOG.md").exists() ? rootProject.file("CHANGELOG.md").text : ""
+
+    dependencies {
+        required.project "fabric-api"
+        optional.project "modmenu"
+    }
 }

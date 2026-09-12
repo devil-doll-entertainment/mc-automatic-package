@@ -45,3 +45,7 @@ check: format lint typecheck test build
 # Clean build artifacts and caches
 clean:
     ./gradlew clean
+
+# Publish artifacts to Modrinth via Minotaur (requires MODRINTH_TOKEN)
+publish-modrinth:
+    ./gradlew modrinth

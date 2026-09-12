@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.neoforge.moddev)
+    alias(libs.plugins.minotaur)
 }
 
 neoForge {
@@ -43,4 +44,16 @@ tasks.named('jar') {
 tasks.named('sourcesJar') {
     from(project(':common').sourceSets.main.allSource)
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+modrinth {
+    token = System.getenv("MODRINTH_TOKEN")
+    projectId = "automaticpackage"
+    versionNumber = project.version
+    versionName = "MC-AutomaticPackage v${project.version} [NeoForge]"
+    versionType = "release"
+    uploadFile = tasks.jar
+    gameVersions = ["1.21", "1.21.1"]
+    loaders = ["neoforge"]
+    changelog = rootProject.file("CHANGELOG.md").exists() ? rootProject.file("CHANGELOG.md").text : ""
 }
