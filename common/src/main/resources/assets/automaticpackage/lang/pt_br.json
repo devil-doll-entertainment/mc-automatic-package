@@ -1,7 +1,24 @@
 {
   "key.automaticpackage.toggle_pack": "Alternar pacote de recursos",
+  "key.automaticpackage.open_gui": "Abrir seletor de pacotes",
   "category.automaticpackage.main": "MC-AutomaticPackage",
   "message.automaticpackage.pack_enabled": "Pacote de recursos '%s' ativado",
   "message.automaticpackage.pack_disabled": "Pacote de recursos '%s' desativado",
-  "message.automaticpackage.pack_not_found": "Pacote de recursos '%s' não encontrado"
+  "message.automaticpackage.pack_not_found": "Pacote de recursos '%s' não encontrado",
+  "message.automaticpackage.cooldown_active": "Recarregamento de recursos em andamento, aguarde...",
+  "message.automaticpackage.no_pack_configured": "Nenhum pacote configurado para alternância rápida! Pressione [G] ou use /autopack gui",
+  "message.automaticpackage.please_choose_pack": "Selecione um pacote de recursos para vincular à sua tecla de atalho",
+  "message.automaticpackage.pack_selected": "Pacote rápido definido para: %s",
+  "message.automaticpackage.status_report": "Pacote rápido atual: %s [%s]",
+  "gui.automaticpackage.title": "Automatic Package — Seletor",
+  "gui.automaticpackage.search": "Pesquisar",
+  "gui.automaticpackage.search_hint": "Pesquisar pacotes de recursos...",
+  "gui.automaticpackage.enable": "Ativar",
+  "gui.automaticpackage.disable": "Desativar",
+  "gui.automaticpackage.set_target": "Definir Alvo",
+  "gui.automaticpackage.is_target": "Alvo",
+  "gui.automaticpackage.quick_toggle_badge": "★ Alternância Rápida",
+  "gui.automaticpackage.status_active": "Ativo",
+  "gui.automaticpackage.status_inactive": "Inativo",
+  "gui.automaticpackage.open_folder": "Abrir pasta de pacotes"
 }

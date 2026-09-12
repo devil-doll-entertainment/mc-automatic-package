@@ -1,27 +1,38 @@
 plugins {
-    id 'net.neoforged.moddev' version '2.0.78'
+    alias(libs.plugins.neoforge.moddev)
 }
 
 neoForge {
-    version = project.neoforge_version
+    version = libs.versions.neoforge.get()
 
     mods {
         "${project.archives_base_name}" {
             sourceSet project.sourceSets.main
+            sourceSet project(':common').sourceSets.main
+        }
+    }
+
+    runs {
+        client {
+            client()
         }
     }
 }
 
 dependencies {
-    implementation project(':common')
+    compileOnly libs.jetbrains.annotations
+    implementation project(path: ':common', configuration: 'namedElements')
 }
 
 processResources {
-    inputs.property "version", project.version
+    def projectVersion = project.version
+    inputs.property "version", projectVersion
 
     filesMatching("META-INF/neoforge.mods.toml") {
-        expand "version": project.version
+        expand "version": projectVersion
     }
+
+    from project(':common').sourceSets.main.resources
 }
 
 tasks.named('jar') {

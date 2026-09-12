@@ -22,15 +22,25 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !gradle/wrapper/gradle-wrapper.properties
 
-# macOS
+# OS & System
 .DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
 
-# Fabric
+# Minecraft & Mod Dev Runtime
 run/
 remappedSrc/
 
-# Logs
+# Logs & Crash Reports
 *.log
+*.log.gz
+logs/
+**/logs/
+crash-reports/
+**/crash-reports/
+hs_err_pid*.log
+replay_pid*.log
 
 # Animoria cache & staged cleanup
 .animoria/

@@ -1,7 +1,24 @@
 {
   "key.automaticpackage.toggle_pack": "تبديل حزمة الموارد",
+  "key.automaticpackage.open_gui": "فتح محدد الحزم",
   "category.automaticpackage.main": "MC-AutomaticPackage",
   "message.automaticpackage.pack_enabled": "تم تفعيل حزمة الموارد '%s'",
   "message.automaticpackage.pack_disabled": "تم تعطيل حزمة الموارد '%s'",
-  "message.automaticpackage.pack_not_found": "لم يتم العثور على حزمة الموارد '%s'"
+  "message.automaticpackage.pack_not_found": "لم يتم العثور على حزمة الموارد '%s'",
+  "message.automaticpackage.cooldown_active": "جاري إعادة تحميل الموارد، يرجى الانتظار...",
+  "message.automaticpackage.no_pack_configured": "لم يتم تكوين حزمة تبديل سريع! اضغط على [G] أو نفذ /autopack gui",
+  "message.automaticpackage.please_choose_pack": "اختر حزمة موارد لربطها بمفتاح التبديل السريع",
+  "message.automaticpackage.pack_selected": "تم تعيين حزمة التبديل السريع إلى: %s",
+  "message.automaticpackage.status_report": "حزمة التبديل السريع الحالية: %s [%s]",
+  "gui.automaticpackage.title": "Automatic Package — المحدد",
+  "gui.automaticpackage.search": "بحث",
+  "gui.automaticpackage.search_hint": "البحث في حزم الموارد...",
+  "gui.automaticpackage.enable": "تفعيل",
+  "gui.automaticpackage.disable": "تعطيل",
+  "gui.automaticpackage.set_target": "تعيين كهدف",
+  "gui.automaticpackage.is_target": "هدف",
+  "gui.automaticpackage.quick_toggle_badge": "★ تبديل سريع",
+  "gui.automaticpackage.status_active": "نشط",
+  "gui.automaticpackage.status_inactive": "غير نشط",
+  "gui.automaticpackage.open_folder": "فتح مجلد الحزم"
 }

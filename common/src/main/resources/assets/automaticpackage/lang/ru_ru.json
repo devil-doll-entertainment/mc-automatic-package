@@ -1,7 +1,24 @@
 {
   "key.automaticpackage.toggle_pack": "Переключить набор ресурсов",
+  "key.automaticpackage.open_gui": "Открыть выбор наборов",
   "category.automaticpackage.main": "MC-AutomaticPackage",
   "message.automaticpackage.pack_enabled": "Набор ресурсов '%s' включён",
   "message.automaticpackage.pack_disabled": "Набор ресурсов '%s' отключён",
-  "message.automaticpackage.pack_not_found": "Набор ресурсов '%s' не найден"
+  "message.automaticpackage.pack_not_found": "Набор ресурсов '%s' не найден",
+  "message.automaticpackage.cooldown_active": "Идёт перезагрузка ресурсов, пожалуйста, подождите...",
+  "message.automaticpackage.no_pack_configured": "Набор для быстрого переключения не выбран! Нажмите [G] или введите /autopack gui",
+  "message.automaticpackage.please_choose_pack": "Выберите набор ресурсов для привязки к клавише быстрого переключения",
+  "message.automaticpackage.pack_selected": "Набор для быстрого переключения: %s",
+  "message.automaticpackage.status_report": "Текущий быстрый набор: %s [%s]",
+  "gui.automaticpackage.title": "Automatic Package — Выбор",
+  "gui.automaticpackage.search": "Поиск",
+  "gui.automaticpackage.search_hint": "Поиск наборов ресурсов...",
+  "gui.automaticpackage.enable": "Включить",
+  "gui.automaticpackage.disable": "Отключить",
+  "gui.automaticpackage.set_target": "Выбрать целью",
+  "gui.automaticpackage.is_target": "Цель",
+  "gui.automaticpackage.quick_toggle_badge": "★ Быстрое переключение",
+  "gui.automaticpackage.status_active": "Активен",
+  "gui.automaticpackage.status_inactive": "Неактивен",
+  "gui.automaticpackage.open_folder": "Открыть папку наборов"
 }

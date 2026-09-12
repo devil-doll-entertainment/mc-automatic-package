@@ -49,4 +49,21 @@ class ModConfigTest {
         config.setNotifyActionBar(true);
         assertTrue(config.isNotifyActionBar());
     }
+
+    @Test
+    void testReloadCooldown() {
+        ModConfig config = ModConfig.get();
+        assertEquals(2000L, config.getReloadCooldownMs());
+
+        config.setReloadCooldownMs(1500L);
+        assertEquals(1500L, config.getReloadCooldownMs());
+
+        // Clamping to minimum 250ms
+        config.setReloadCooldownMs(100L);
+        assertEquals(250L, config.getReloadCooldownMs());
+
+        // Reset to default
+        config.setReloadCooldownMs(2000L);
+        assertEquals(2000L, config.getReloadCooldownMs());
+    }
 }

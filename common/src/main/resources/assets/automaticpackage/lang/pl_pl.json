@@ -1,7 +1,24 @@
 {
   "key.automaticpackage.toggle_pack": "Przełącz paczkę zasobów",
+  "key.automaticpackage.open_gui": "Otwórz wybór paczek",
   "category.automaticpackage.main": "MC-AutomaticPackage",
   "message.automaticpackage.pack_enabled": "Paczka zasobów '%s' włączona",
   "message.automaticpackage.pack_disabled": "Paczka zasobów '%s' wyłączona",
-  "message.automaticpackage.pack_not_found": "Nie znaleziono paczki zasobów '%s'"
+  "message.automaticpackage.pack_not_found": "Nie znaleziono paczki zasobów '%s'",
+  "message.automaticpackage.cooldown_active": "Trwa przeładowywanie zasobów, proszę czekać...",
+  "message.automaticpackage.no_pack_configured": "Brak skonfigurowanej paczki szybkiego przełączania! Naciśnij [G] lub wpisz /autopack gui",
+  "message.automaticpackage.please_choose_pack": "Wybierz paczkę zasobów do przypisania do klawisza szybkiego przełączania",
+  "message.automaticpackage.pack_selected": "Paczka szybkiego przełączania ustawiona na: %s",
+  "message.automaticpackage.status_report": "Aktualna paczka szybkiego przełączania: %s [%s]",
+  "gui.automaticpackage.title": "Automatic Package — Wybór",
+  "gui.automaticpackage.search": "Szukaj",
+  "gui.automaticpackage.search_hint": "Szukaj paczek zasobów...",
+  "gui.automaticpackage.enable": "Włącz",
+  "gui.automaticpackage.disable": "Wyłącz",
+  "gui.automaticpackage.set_target": "Ustaw jako cel",
+  "gui.automaticpackage.is_target": "Cel",
+  "gui.automaticpackage.quick_toggle_badge": "★ Szybkie przełączanie",
+  "gui.automaticpackage.status_active": "Aktywny",
+  "gui.automaticpackage.status_inactive": "Nieaktywny",
+  "gui.automaticpackage.open_folder": "Otwórz folder paczek"
 }

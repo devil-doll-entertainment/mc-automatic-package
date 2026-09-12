@@ -10,6 +10,7 @@ import net.minecraft.client.gui.components.EditBox;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.CommonComponents;
 import net.minecraft.network.chat.Component;
+import org.jetbrains.annotations.Nullable;
 
 /**
  * Clean, interactive GUI screen allowing players to browse, filter,
@@ -22,7 +23,7 @@ public class PackSelectorScreen extends Screen {
     private PackListWidget packListWidget;
     private List<PackInfo> cachedPacks;
 
-    public PackSelectorScreen(Screen parent) {
+    public PackSelectorScreen(@Nullable Screen parent) {
         super(Component.translatable("gui.automaticpackage.title"));
         this.parent = parent;
     }

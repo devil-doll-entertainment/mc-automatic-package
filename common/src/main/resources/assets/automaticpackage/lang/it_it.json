@@ -1,7 +1,24 @@
 {
   "key.automaticpackage.toggle_pack": "Attiva/disattiva pacchetto risorse",
+  "key.automaticpackage.open_gui": "Apri selettore pacchetti",
   "category.automaticpackage.main": "MC-AutomaticPackage",
   "message.automaticpackage.pack_enabled": "Pacchetto risorse '%s' attivato",
   "message.automaticpackage.pack_disabled": "Pacchetto risorse '%s' disattivato",
-  "message.automaticpackage.pack_not_found": "Pacchetto risorse '%s' non trovato"
+  "message.automaticpackage.pack_not_found": "Pacchetto risorse '%s' non trovato",
+  "message.automaticpackage.cooldown_active": "Ricaricamento risorse in corso, attendere...",
+  "message.automaticpackage.no_pack_configured": "Nessun pacchetto configurato per il cambio rapido! Premi [G] o usa /autopack gui",
+  "message.automaticpackage.please_choose_pack": "Seleziona un pacchetto risorse da associare al tasto rapido",
+  "message.automaticpackage.pack_selected": "Pacchetto rapido impostato su: %s",
+  "message.automaticpackage.status_report": "Pacchetto rapido attuale: %s [%s]",
+  "gui.automaticpackage.title": "Automatic Package — Selettore",
+  "gui.automaticpackage.search": "Cerca",
+  "gui.automaticpackage.search_hint": "Cerca pacchetti risorse...",
+  "gui.automaticpackage.enable": "Attiva",
+  "gui.automaticpackage.disable": "Disattiva",
+  "gui.automaticpackage.set_target": "Imposta bersaglio",
+  "gui.automaticpackage.is_target": "Bersaglio",
+  "gui.automaticpackage.quick_toggle_badge": "★ Cambio rapido",
+  "gui.automaticpackage.status_active": "Attivo",
+  "gui.automaticpackage.status_inactive": "Inattivo",
+  "gui.automaticpackage.open_folder": "Apri cartella dei pacchetti"
 }

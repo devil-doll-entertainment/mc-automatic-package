@@ -1,7 +1,24 @@
 {
   "key.automaticpackage.toggle_pack": "Basculer le pack de ressources",
+  "key.automaticpackage.open_gui": "Ouvrir le sélecteur de packs",
   "category.automaticpackage.main": "MC-AutomaticPackage",
   "message.automaticpackage.pack_enabled": "Pack de ressources '%s' activé",
   "message.automaticpackage.pack_disabled": "Pack de ressources '%s' désactivé",
-  "message.automaticpackage.pack_not_found": "Pack de ressources '%s' introuvable"
+  "message.automaticpackage.pack_not_found": "Pack de ressources '%s' introuvable",
+  "message.automaticpackage.cooldown_active": "Rechargement des ressources en cours, veuillez patienter...",
+  "message.automaticpackage.no_pack_configured": "Aucun pack configuré pour le basculement rapide ! Appuyez sur [G] ou utilisez /autopack gui",
+  "message.automaticpackage.please_choose_pack": "Sélectionnez un pack de ressources à associer à votre touche rapide",
+  "message.automaticpackage.pack_selected": "Pack rapide défini sur : %s",
+  "message.automaticpackage.status_report": "Pack rapide actuel : %s [%s]",
+  "gui.automaticpackage.title": "Automatic Package — Sélecteur",
+  "gui.automaticpackage.search": "Rechercher",
+  "gui.automaticpackage.search_hint": "Rechercher des packs de ressources...",
+  "gui.automaticpackage.enable": "Activer",
+  "gui.automaticpackage.disable": "Désactiver",
+  "gui.automaticpackage.set_target": "Définir comme cible",
+  "gui.automaticpackage.is_target": "Cible",
+  "gui.automaticpackage.quick_toggle_badge": "★ Basculement rapide",
+  "gui.automaticpackage.status_active": "Actif",
+  "gui.automaticpackage.status_inactive": "Inactif",
+  "gui.automaticpackage.open_folder": "Ouvrir le dossier des packs"
 }

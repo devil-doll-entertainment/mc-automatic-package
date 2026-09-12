@@ -1,17 +1,19 @@
 plugins {
-    id 'net.fabricmc.fabric-loom-remap' version '1.14.7'
+    alias(libs.plugins.fabric.loom)
 }
 
 dependencies {
-    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    minecraft libs.minecraft
     mappings loom.officialMojangMappings()
-    
-    compileOnly "net.fabricmc:fabric-loader:${project.loader_version}"
-    compileOnly "com.google.code.gson:gson:2.10.1"
-    compileOnly "org.slf4j:slf4j-api:2.0.9"
 
-    testImplementation "org.junit.jupiter:junit-jupiter:5.10.2"
-    testRuntimeOnly "org.junit.platform:junit-platform-launcher"
+    compileOnly libs.fabric.loader
+    compileOnly libs.gson
+    compileOnly libs.slf4j.api
+    compileOnly libs.jetbrains.annotations
+
+    testImplementation libs.junit.jupiter
+    testRuntimeOnly libs.junit.platform.launcher
+    testCompileOnly libs.jetbrains.annotations
 }
 
 test {

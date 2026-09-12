@@ -1,7 +1,24 @@
 {
   "key.automaticpackage.toggle_pack": "Kaynak paketini değiştir",
+  "key.automaticpackage.open_gui": "Paket Seçiciyi Aç",
   "category.automaticpackage.main": "MC-AutomaticPackage",
   "message.automaticpackage.pack_enabled": "Kaynak paketi '%s' etkinleştirildi",
   "message.automaticpackage.pack_disabled": "Kaynak paketi '%s' devre dışı bırakıldı",
-  "message.automaticpackage.pack_not_found": "Kaynak paketi '%s' bulunamadı"
+  "message.automaticpackage.pack_not_found": "Kaynak paketi '%s' bulunamadı",
+  "message.automaticpackage.cooldown_active": "Kaynaklar yeniden yükleniyor, lütfen bekleyin...",
+  "message.automaticpackage.no_pack_configured": "Hızlı geçiş kaynak paketi ayarlanmadı! [G] tuşuna basın veya /autopack gui yazın",
+  "message.automaticpackage.please_choose_pack": "Hızlı geçiş tuşunuza bağlamak için bir kaynak paketi seçin",
+  "message.automaticpackage.pack_selected": "Hızlı geçiş paketi ayarlandı: %s",
+  "message.automaticpackage.status_report": "Mevcut hızlı geçiş paketi: %s [%s]",
+  "gui.automaticpackage.title": "Automatic Package — Seçici",
+  "gui.automaticpackage.search": "Ara",
+  "gui.automaticpackage.search_hint": "Kaynak paketlerini ara...",
+  "gui.automaticpackage.enable": "Etkinleştir",
+  "gui.automaticpackage.disable": "Devre Dışı Bırak",
+  "gui.automaticpackage.set_target": "Hedef Olarak Ayarla",
+  "gui.automaticpackage.is_target": "Hedef",
+  "gui.automaticpackage.quick_toggle_badge": "★ Hızlı Geçiş",
+  "gui.automaticpackage.status_active": "Etkin",
+  "gui.automaticpackage.status_inactive": "Devre Dışı",
+  "gui.automaticpackage.open_folder": "Paket Klasörünü Aç"
 }

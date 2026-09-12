@@ -8,11 +8,13 @@ import com.sxnnyside.autopack.config.ModConfig;
 import com.sxnnyside.autopack.gui.PackSelectorScreen;
 import com.sxnnyside.autopack.pack.PackInfo;
 import com.sxnnyside.autopack.pack.ResourcePackController;
+import com.sxnnyside.autopack.pack.ResourcePackFeedback;
 import java.util.List;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.Minecraft;
 import net.minecraft.commands.SharedSuggestionProvider;
 import net.minecraft.network.chat.Component;
+import org.jetbrains.annotations.NotNull;
 
 /**
  * Common client-side command handler for /autopack.
@@ -21,7 +23,7 @@ public final class AutoPackCommand {
 
     private AutoPackCommand() {}
 
-    public static <S extends SharedSuggestionProvider> void register(CommandDispatcher<S> dispatcher) {
+    public static <S extends SharedSuggestionProvider> void register(@NotNull CommandDispatcher<S> dispatcher) {
         LiteralArgumentBuilder<S> root = LiteralArgumentBuilder.<S>literal("autopack")
                 .executes(context -> {
                     Minecraft client = Minecraft.getInstance();
@@ -39,8 +41,7 @@ public final class AutoPackCommand {
                         ResourcePackController.ToggleResult result =
                                 ResourcePackController.toggleConfiguredPack(client);
                         String packId = ModConfig.get().getTargetPackId();
-                        ResourcePackController.sendFeedback(
-                                client, ResourcePackController.formatResult(client, result, packId));
+                        ResourcePackFeedback.notifyToggleResult(client, result, packId);
                     });
                     return 1;
                 }))
@@ -48,7 +49,7 @@ public final class AutoPackCommand {
                     Minecraft client = Minecraft.getInstance();
                     ModConfig config = ModConfig.get();
                     if (!config.hasTargetPack()) {
-                        ResourcePackController.sendFeedback(
+                        ResourcePackFeedback.sendFeedback(
                                 client,
                                 Component.translatable("message.automaticpackage.no_pack_configured")
                                         .withStyle(ChatFormatting.YELLOW));
@@ -65,7 +66,7 @@ public final class AutoPackCommand {
                                 : Component.translatable("gui.automaticpackage.status_inactive")
                                         .withStyle(ChatFormatting.RED);
 
-                        ResourcePackController.sendFeedback(
+                        ResourcePackFeedback.sendFeedback(
                                 client,
                                 Component.translatable("message.automaticpackage.status_report", name, status)
                                         .withStyle(ChatFormatting.AQUA));
@@ -86,7 +87,7 @@ public final class AutoPackCommand {
                                     Component displayName = ResourcePackController.getPackDisplayName(client, packId);
 
                                     ModConfig.get().setTargetPack(packId, displayName.getString());
-                                    ResourcePackController.sendFeedback(
+                                    ResourcePackFeedback.sendFeedback(
                                             client,
                                             Component.translatable(
                                                             "message.automaticpackage.pack_selected", displayName)

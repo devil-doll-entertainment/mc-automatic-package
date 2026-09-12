@@ -1,7 +1,24 @@
 {
   "key.automaticpackage.toggle_pack": "Перемкнути набір ресурсів",
+  "key.automaticpackage.open_gui": "Відкрити вибір наборів",
   "category.automaticpackage.main": "MC-AutomaticPackage",
   "message.automaticpackage.pack_enabled": "Набір ресурсів '%s' увімкнено",
   "message.automaticpackage.pack_disabled": "Набір ресурсів '%s' вимкнено",
-  "message.automaticpackage.pack_not_found": "Набір ресурсів '%s' не знайдено"
+  "message.automaticpackage.pack_not_found": "Набір ресурсів '%s' не знайдено",
+  "message.automaticpackage.cooldown_active": "Триває перезавантаження ресурсів, зачекайте...",
+  "message.automaticpackage.no_pack_configured": "Набір для швидкого перемикання не налаштовано! Натисніть [G] або введіть /autopack gui",
+  "message.automaticpackage.please_choose_pack": "Виберіть набір ресурсів для прив'язки до клавіші швидкого перемикання",
+  "message.automaticpackage.pack_selected": "Набір для швидкого перемикання: %s",
+  "message.automaticpackage.status_report": "Поточний швидкий набір: %s [%s]",
+  "gui.automaticpackage.title": "Automatic Package — Вибір",
+  "gui.automaticpackage.search": "Пошук",
+  "gui.automaticpackage.search_hint": "Пошук наборів ресурсів...",
+  "gui.automaticpackage.enable": "Увімкнути",
+  "gui.automaticpackage.disable": "Вимкнути",
+  "gui.automaticpackage.set_target": "Встановити ціллю",
+  "gui.automaticpackage.is_target": "Ціль",
+  "gui.automaticpackage.quick_toggle_badge": "★ Швидке перемикання",
+  "gui.automaticpackage.status_active": "Активний",
+  "gui.automaticpackage.status_inactive": "Неактивний",
+  "gui.automaticpackage.open_folder": "Відкрити папку наборів"
 }

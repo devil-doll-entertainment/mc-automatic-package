@@ -9,6 +9,8 @@ import java.io.Reader;
 import java.io.Writer;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 /**
  * Platform-independent configuration stored in the game's config directory.
@@ -43,27 +45,32 @@ public class ModConfig {
      */
     private boolean notifyActionBar = true;
 
+    /**
+     * Cooldown in milliseconds between resource reloads to prevent spam freezes (minimum 250ms).
+     */
+    private long reloadCooldownMs = 2000L;
+
     // ---- Getters and Setters ----
 
-    public String getTargetPackId() {
+    public @NotNull String getTargetPackId() {
         return targetPackId != null ? targetPackId : "";
     }
 
-    public void setTargetPackId(String targetPackId) {
+    public void setTargetPackId(@Nullable String targetPackId) {
         this.targetPackId = targetPackId != null ? targetPackId : "";
         save();
     }
 
-    public String getTargetPackDisplayName() {
+    public @NotNull String getTargetPackDisplayName() {
         return targetPackDisplayName != null ? targetPackDisplayName : "";
     }
 
-    public void setTargetPackDisplayName(String displayName) {
+    public void setTargetPackDisplayName(@Nullable String displayName) {
         this.targetPackDisplayName = displayName != null ? displayName : "";
         save();
     }
 
-    public void setTargetPack(String packId, String displayName) {
+    public void setTargetPack(@Nullable String packId, @Nullable String displayName) {
         this.targetPackId = packId != null ? packId : "";
         this.targetPackDisplayName = displayName != null ? displayName : "";
         save();
@@ -84,6 +91,15 @@ public class ModConfig {
 
     public void setNotifyActionBar(boolean notifyActionBar) {
         this.notifyActionBar = notifyActionBar;
+        save();
+    }
+
+    public long getReloadCooldownMs() {
+        return reloadCooldownMs;
+    }
+
+    public void setReloadCooldownMs(long reloadCooldownMs) {
+        this.reloadCooldownMs = Math.max(250L, reloadCooldownMs);
         save();
     }
 

@@ -1,7 +1,24 @@
 {
   "key.automaticpackage.toggle_pack": "リソースパックの切り替え",
+  "key.automaticpackage.open_gui": "パック選択画面を開く",
   "category.automaticpackage.main": "MC-AutomaticPackage",
   "message.automaticpackage.pack_enabled": "リソースパック '%s' が有効になりました",
   "message.automaticpackage.pack_disabled": "リソースパック '%s' が無効になりました",
-  "message.automaticpackage.pack_not_found": "リソースパック '%s' が見つかりません"
+  "message.automaticpackage.pack_not_found": "リソースパック '%s' が見つかりません",
+  "message.automaticpackage.cooldown_active": "リソースを再読み込み中です。しばらくお待ちください...",
+  "message.automaticpackage.no_pack_configured": "クイック切り替えパックが設定されていません。[G] キーを押すか /autopack gui を実行してください",
+  "message.automaticpackage.please_choose_pack": "クイック切り替えキーに割り当てるリソースパックを選択してください",
+  "message.automaticpackage.pack_selected": "クイック切り替えパックを設定: %s",
+  "message.automaticpackage.status_report": "現在のクイック切り替えパック: %s [%s]",
+  "gui.automaticpackage.title": "Automatic Package — セレクター",
+  "gui.automaticpackage.search": "検索",
+  "gui.automaticpackage.search_hint": "リソースパックを検索...",
+  "gui.automaticpackage.enable": "有効化",
+  "gui.automaticpackage.disable": "無効化",
+  "gui.automaticpackage.set_target": "ターゲットに設定",
+  "gui.automaticpackage.is_target": "ターゲット",
+  "gui.automaticpackage.quick_toggle_badge": "★ クイック切り替え",
+  "gui.automaticpackage.status_active": "有効",
+  "gui.automaticpackage.status_inactive": "無効",
+  "gui.automaticpackage.open_folder": "パックフォルダーを開く"
 }

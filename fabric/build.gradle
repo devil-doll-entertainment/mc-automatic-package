@@ -1,5 +1,5 @@
 plugins {
-    id 'net.fabricmc.fabric-loom-remap' version '1.14.7'
+    alias(libs.plugins.fabric.loom)
 }
 
 repositories {
@@ -10,24 +10,28 @@ repositories {
 }
 
 dependencies {
-    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    minecraft libs.minecraft
     mappings loom.officialMojangMappings()
 
-    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    modImplementation libs.fabric.loader
+    modImplementation libs.fabric.api
 
-    modCompileOnly "com.terraformersmc:modmenu:11.0.3"
+    modCompileOnly libs.modmenu
+    compileOnly libs.jetbrains.annotations
 
-    implementation project(':common')
+    implementation project(path: ':common', configuration: 'namedElements')
 }
 
 
 processResources {
-    inputs.property "version", project.version
+    def projectVersion = project.version
+    inputs.property "version", projectVersion
 
     filesMatching("fabric.mod.json") {
-        expand "version": project.version
+        expand "version": projectVersion
     }
+
+    from project(':common').sourceSets.main.resources
 }
 
 tasks.named('jar') {

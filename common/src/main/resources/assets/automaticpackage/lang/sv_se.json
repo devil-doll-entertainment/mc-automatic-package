@@ -1,7 +1,24 @@
 {
   "key.automaticpackage.toggle_pack": "Växla resurspaket",
+  "key.automaticpackage.open_gui": "Öppna paketväljare",
   "category.automaticpackage.main": "MC-AutomaticPackage",
   "message.automaticpackage.pack_enabled": "Resurspaket '%s' aktiverat",
   "message.automaticpackage.pack_disabled": "Resurspaket '%s' inaktiverat",
-  "message.automaticpackage.pack_not_found": "Resurspaket '%s' hittades inte"
+  "message.automaticpackage.pack_not_found": "Resurspaket '%s' hittades inte",
+  "message.automaticpackage.cooldown_active": "Resurser laddas om, vänligen vänta...",
+  "message.automaticpackage.no_pack_configured": "Inget snabbväxlingspaket konfigurerat! Tryck på [G] eller kör /autopack gui",
+  "message.automaticpackage.please_choose_pack": "Välj ett resurspaket att binda till din snabbväxlingstangent",
+  "message.automaticpackage.pack_selected": "Snabbväxlingspaket inställt på: %s",
+  "message.automaticpackage.status_report": "Nuvarande snabbväxlingspaket: %s [%s]",
+  "gui.automaticpackage.title": "Automatic Package — Väljare",
+  "gui.automaticpackage.search": "Sök",
+  "gui.automaticpackage.search_hint": "Sök resurspaket...",
+  "gui.automaticpackage.enable": "Aktivera",
+  "gui.automaticpackage.disable": "Inaktivera",
+  "gui.automaticpackage.set_target": "Välj som mål",
+  "gui.automaticpackage.is_target": "Mål",
+  "gui.automaticpackage.quick_toggle_badge": "★ Snabbväxling",
+  "gui.automaticpackage.status_active": "Aktiv",
+  "gui.automaticpackage.status_inactive": "Inaktiv",
+  "gui.automaticpackage.open_folder": "Öppna paketmapp"
 }

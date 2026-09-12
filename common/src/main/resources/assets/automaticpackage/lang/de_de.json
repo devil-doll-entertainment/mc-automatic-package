@@ -1,7 +1,24 @@
 {
   "key.automaticpackage.toggle_pack": "Ressourcenpaket umschalten",
+  "key.automaticpackage.open_gui": "Paketauswahl öffnen",
   "category.automaticpackage.main": "MC-AutomaticPackage",
   "message.automaticpackage.pack_enabled": "Ressourcenpaket '%s' aktiviert",
   "message.automaticpackage.pack_disabled": "Ressourcenpaket '%s' deaktiviert",
-  "message.automaticpackage.pack_not_found": "Ressourcenpaket '%s' nicht gefunden"
+  "message.automaticpackage.pack_not_found": "Ressourcenpaket '%s' nicht gefunden",
+  "message.automaticpackage.cooldown_active": "Ressourcen werden neu geladen, bitte warten...",
+  "message.automaticpackage.no_pack_configured": "Kein Schnellwechsel-Paket konfiguriert! Drücke [G] oder nutze /autopack gui",
+  "message.automaticpackage.please_choose_pack": "Wähle ein Ressourcenpaket für deine Schnellwechsel-Taste",
+  "message.automaticpackage.pack_selected": "Schnellwechsel-Paket festgelegt auf: %s",
+  "message.automaticpackage.status_report": "Aktuelles Schnellwechsel-Paket: %s [%s]",
+  "gui.automaticpackage.title": "Automatic Package — Auswahl",
+  "gui.automaticpackage.search": "Suchen",
+  "gui.automaticpackage.search_hint": "Ressourcenpakete suchen...",
+  "gui.automaticpackage.enable": "Aktivieren",
+  "gui.automaticpackage.disable": "Deaktivieren",
+  "gui.automaticpackage.set_target": "Als Ziel festlegen",
+  "gui.automaticpackage.is_target": "Ziel",
+  "gui.automaticpackage.quick_toggle_badge": "★ Schnellwechsel",
+  "gui.automaticpackage.status_active": "Aktiv",
+  "gui.automaticpackage.status_inactive": "Inaktiv",
+  "gui.automaticpackage.open_folder": "Paketordner öffnen"
 }

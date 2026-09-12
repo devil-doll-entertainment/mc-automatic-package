@@ -1,7 +1,24 @@
 {
   "key.automaticpackage.toggle_pack": "切换资源包",
+  "key.automaticpackage.open_gui": "打开资源包选择器",
   "category.automaticpackage.main": "MC-AutomaticPackage",
   "message.automaticpackage.pack_enabled": "资源包 '%s' 已启用",
   "message.automaticpackage.pack_disabled": "资源包 '%s' 已禁用",
-  "message.automaticpackage.pack_not_found": "未找到资源包 '%s'"
+  "message.automaticpackage.pack_not_found": "未找到资源包 '%s'",
+  "message.automaticpackage.cooldown_active": "资源正在重新加载中，请稍候...",
+  "message.automaticpackage.no_pack_configured": "未配置快速切换资源包！请按 [G] 键或运行 /autopack gui",
+  "message.automaticpackage.please_choose_pack": "请选择一个要绑定到快速切换键的资源包",
+  "message.automaticpackage.pack_selected": "快速切换资源包已设置为：%s",
+  "message.automaticpackage.status_report": "当前快速切换资源包：%s [%s]",
+  "gui.automaticpackage.title": "Automatic Package — 选择器",
+  "gui.automaticpackage.search": "搜索",
+  "gui.automaticpackage.search_hint": "搜索资源包...",
+  "gui.automaticpackage.enable": "启用",
+  "gui.automaticpackage.disable": "禁用",
+  "gui.automaticpackage.set_target": "设为目标",
+  "gui.automaticpackage.is_target": "目标",
+  "gui.automaticpackage.quick_toggle_badge": "★ 快速切换",
+  "gui.automaticpackage.status_active": "已启用",
+  "gui.automaticpackage.status_inactive": "已禁用",
+  "gui.automaticpackage.open_folder": "打开资源包文件夹"
 }

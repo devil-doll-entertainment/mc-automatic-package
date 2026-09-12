@@ -1,7 +1,24 @@
 {
   "key.automaticpackage.toggle_pack": "Bronpakket wisselen",
+  "key.automaticpackage.open_gui": "Pakketkiezer openen",
   "category.automaticpackage.main": "MC-AutomaticPackage",
   "message.automaticpackage.pack_enabled": "Bronpakket '%s' ingeschakeld",
   "message.automaticpackage.pack_disabled": "Bronpakket '%s' uitgeschakeld",
-  "message.automaticpackage.pack_not_found": "Bronpakket '%s' niet gevonden"
+  "message.automaticpackage.pack_not_found": "Bronpakket '%s' niet gevonden",
+  "message.automaticpackage.cooldown_active": "Bronnen herladen bezig, even geduld...",
+  "message.automaticpackage.no_pack_configured": "Geen snelwissel-bronpakket geconfigureerd! Druk op [G] of typ /autopack gui",
+  "message.automaticpackage.please_choose_pack": "Kies een bronpakket om te koppelen aan je snelwisseltoets",
+  "message.automaticpackage.pack_selected": "Snelwissel-pakket ingesteld op: %s",
+  "message.automaticpackage.status_report": "Huidig snelwissel-pakket: %s [%s]",
+  "gui.automaticpackage.title": "Automatic Package — Kiezer",
+  "gui.automaticpackage.search": "Zoeken",
+  "gui.automaticpackage.search_hint": "Zoek bronpakketten...",
+  "gui.automaticpackage.enable": "Inschakelen",
+  "gui.automaticpackage.disable": "Uitschakelen",
+  "gui.automaticpackage.set_target": "Instellen als doel",
+  "gui.automaticpackage.is_target": "Doel",
+  "gui.automaticpackage.quick_toggle_badge": "★ Snelwissel",
+  "gui.automaticpackage.status_active": "Actief",
+  "gui.automaticpackage.status_inactive": "Inactief",
+  "gui.automaticpackage.open_folder": "Pakkettenmap openen"
 }

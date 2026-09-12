@@ -1,7 +1,24 @@
 {
   "key.automaticpackage.toggle_pack": "Přepnout balíček zdrojů",
+  "key.automaticpackage.open_gui": "Otevřít výběr balíčků",
   "category.automaticpackage.main": "MC-AutomaticPackage",
   "message.automaticpackage.pack_enabled": "Balíček zdrojů '%s' zapnut",
   "message.automaticpackage.pack_disabled": "Balíček zdrojů '%s' vypnut",
-  "message.automaticpackage.pack_not_found": "Balíček zdrojů '%s' nenalezen"
+  "message.automaticpackage.pack_not_found": "Balíček zdrojů '%s' nenalezen",
+  "message.automaticpackage.cooldown_active": "Probíhá načítání zdrojů, čekejte prosím...",
+  "message.automaticpackage.no_pack_configured": "Není nastaven žádný balíček pro rychlé přepnutí! Stiskněte [G] nebo zadejte /autopack gui",
+  "message.automaticpackage.please_choose_pack": "Vyberte balíček zdrojů k přiřazení ke klávese rychlého přepnutí",
+  "message.automaticpackage.pack_selected": "Balíček pro rychlé přepnutí nastaven na: %s",
+  "message.automaticpackage.status_report": "Aktuální balíček pro rychlé přepnutí: %s [%s]",
+  "gui.automaticpackage.title": "Automatic Package — Výběr",
+  "gui.automaticpackage.search": "Hledat",
+  "gui.automaticpackage.search_hint": "Hledat balíčky zdrojů...",
+  "gui.automaticpackage.enable": "Zapnout",
+  "gui.automaticpackage.disable": "Vypnout",
+  "gui.automaticpackage.set_target": "Nastavit jako cíl",
+  "gui.automaticpackage.is_target": "Cíl",
+  "gui.automaticpackage.quick_toggle_badge": "★ Rychlé přepnutí",
+  "gui.automaticpackage.status_active": "Aktivní",
+  "gui.automaticpackage.status_inactive": "Neaktivní",
+  "gui.automaticpackage.open_folder": "Otevřít složku balíčků"
 }
